@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JuanArmijos.MainPage">
+
+    <StackLayout>
+        <Image Source="https://sbsconsulting.com.ec/wp-content/uploads/2018/01/LOGO-UISRAEL-768x209.png" />
+        <Label Text="Inicio de Sesión"
+               HorizontalTextAlignment="Center" TextColor="Black" FontSize="40">
+        </Label>
+        <Entry x:Name="txtUser"   Placeholder="Usuario"></Entry>
+        <Entry x:Name="txtPass"  IsPassword="True" Placeholder="Contraseña"></Entry>
+
+        <Button x:Name="btnIngresar" Text="Ingresar" Clicked="btnIngresar_Clicked" BackgroundColor="Green"></Button>
+
+    </StackLayout>
+
+</ContentPage>
